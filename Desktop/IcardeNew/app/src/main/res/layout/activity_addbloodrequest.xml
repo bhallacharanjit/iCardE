@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackcolor"
+    android:padding="30dp"
+    tools:context=".Addbloodrequest">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Group"
+
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:id="@+id/bloodgroup"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittextround"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:id="@+id/phone"
+        android:inputType="number"
+        android:layout_below="@+id/bloodgroup"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextround"
+        />
+
+
+  <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address"
+        android:padding="10dp"
+        android:textSize="12sp"
+       android:lines="4"
+        android:id="@+id/address"
+        android:layout_below="@+id/phone"
+         android:layout_marginTop="20dp"
+         android:background="@color/edittextcolor"
+         />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="40dp"
+        android:text="Send Request"
+        android:id="@+id/send"
+        android:textAllCaps="false"
+        android:background="@color/whitecolor"
+        android:textColor="@color/blackcolor"
+        android:textSize="16sp"
+
+        />
+
+
+
+
+
+</RelativeLayout>

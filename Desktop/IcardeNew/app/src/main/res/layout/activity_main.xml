@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackcolor"
+    android:layout_marginTop="10dp"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                >
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitecolor"
+                    android:text="Add Business"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:id="@+id/addbusiness"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    ></Button>
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitecolor"
+                    android:text="Favourite Business"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/addbusiness"
+                    android:id="@+id/favbusiness"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    ></Button>
+
+   <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitecolor"
+                    android:text="Add Blood Request"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/favbusiness"
+                    android:id="@+id/addbloodrequest"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    ></Button>
+
+  <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitecolor"
+                    android:text="All Blood Request"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/addbloodrequest"
+                    android:id="@+id/allbloodrequest"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    ></Button>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitecolor"
+                    android:text="My Business"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:id="@+id/mybusiness"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    ></Button>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitecolor"
+                    android:text="SOS"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/mybusiness"
+                    android:id="@+id/sos"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    ></Button>
+
+   <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitecolor"
+                    android:text="All SOS"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/sos"
+                    android:id="@+id/allsos"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    ></Button>
+
+  <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitecolor"
+                    android:text="My SOS"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/allsos"
+                    android:id="@+id/mysos"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    ></Button>
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

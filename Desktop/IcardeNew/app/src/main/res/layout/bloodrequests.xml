@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bloodgroup"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:padding="5dp"></TextView>
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+          android:layout_marginTop="5dp"
+          android:layout_below="@id/bloodgroup"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:padding="5dp"></TextView>
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+          android:layout_marginTop="5dp"
+          android:layout_below="@id/phone"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:padding="5dp"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/map"
+        android:padding="5dp"
+        android:src="@mipmap/map"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY"></ImageView>
+
+
+</RelativeLayout>
